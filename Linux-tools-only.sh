@@ -243,7 +243,7 @@ if [[ "$OS" == "Linux" ]] || [[ "$OS" == "Darwin" ]]; then
   echo "Zsh plugin installation complete!"
 
   echo "Setting up zsh profile"
-  curl -fsSl https://raw.githubusercontent.com/EXERCISE12/Linux2.24/main/config/zshrc -o $HOME/.zshrc
+  curl -fsSl https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/zshrc -o $HOME/.zshrc
 
 
 fi
@@ -268,7 +268,7 @@ rm ~/cascadia-code-nerd-font.zip
 #Terminator various configuration
 echo "Installing and Config Terminator Theme"
 mkdir -p ~/.config/terminator/
-curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.24/main/config/terminator/config -o $HOME/.config/terminator/config
+curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/terminator/config -o $HOME/.config/terminator/config
 
 # Refresh the font cache
 fc-cache -fv

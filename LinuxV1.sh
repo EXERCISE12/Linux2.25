@@ -290,7 +290,7 @@ if [[ "$OS" == "Linux" ]] || [[ "$OS" == "Darwin" ]]; then
   echo "Zsh plugin installation complete!"
 
   echo "Setting up zsh profile"
-  curl -fsSl https://raw.githubusercontent.com/EXERCISE12/Linux2.24/main/config/zshrc -o $HOME/.zshrc
+  curl -fsSl https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/zshrc -o $HOME/.zshrc
 
 
 fi
@@ -315,15 +315,15 @@ rm ~/cascadia-code-nerd-font.zip
 #Terminator various configuration
 echo "Setup Terminator configuration"
 mkdir -p $HOME/.config/terminator/
-curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.24/main/config/terminator/config -o $HOME/.config/terminator/config
+curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/terminator/config -o $HOME/.config/terminator/config
 
 #Kitty various Configurations
 echo "Setup Kitty configuration"
 mkdir -p $HOME/.config/kitty/
 #Kitty Catpuccino theme
-curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.24/main/config/kitty/current-theme.conf -o $HOME/.config/kitty/current-theme.conf
+curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/kitty/current-theme.conf -o $HOME/.config/kitty/current-theme.conf
 #Kitty Config file
-curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.24/main/config/kitty/kitty.conf -o $HOME/.config/kitty/kitty.conf
+curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/kitty/kitty.conf -o $HOME/.config/kitty/kitty.conf
 
 # Refresh the font cache
 fc-cache -fv
