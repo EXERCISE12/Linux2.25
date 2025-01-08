@@ -265,11 +265,6 @@ unzip ~/cascadia-code-nerd-font.zip -d ~/.local/share/fonts
 # Remove the downloaded zip file
 rm ~/cascadia-code-nerd-font.zip
 
-#Terminator various configuration
-echo "Installing and Config Terminator Theme"
-mkdir -p ~/.config/terminator/
-curl -fsSL https://raw.githubusercontent.com/EXERCISE12/Linux2.25/main/config/terminator/config -o $HOME/.config/terminator/config
-
 # Refresh the font cache
 fc-cache -fv
 sed -i '/^\[\[default\]\]/!b;n;s/font = .*/font = Cascadia Code 13/' ~/.config/terminator/config
